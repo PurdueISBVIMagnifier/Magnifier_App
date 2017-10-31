@@ -1,0 +1,76 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - CTAssetsPickerController (3.3.1):
+    - PureLayout (~> 3.0.0)
+  - GPUImage (0.1.7)
+  - JTSImageViewController@bulusoy (1.5.1):
+    - UIImage-Resize (~> 1.0.1)
+  - KissXML (5.0.3):
+    - KissXML/Standard (= 5.0.3)
+  - KissXML/Core (5.0.3)
+  - KissXML/Standard (5.0.3):
+    - KissXML/Core
+  - MaterialControls (1.0.2)
+  - PureLayout (3.0.1)
+  - SonyCameraRemoteAPI (0.1.0):
+    - AFNetworking (~> 2.5.4)
+    - CocoaAsyncSocket
+    - KissXML
+  - UIImage-Resize (1.0.1)
+
+DEPENDENCIES:
+  - CTAssetsPickerController (~> 3.3.0)
+  - GPUImage (~> 0.1)
+  - JTSImageViewController@bulusoy (~> 1.5)
+  - MaterialControls (~> 1.0)
+  - SonyCameraRemoteAPI (from `https://github.com/manikkalra/SonyCameraRemoteAPI.git`)
+
+EXTERNAL SOURCES:
+  SonyCameraRemoteAPI:
+    :git: https://github.com/manikkalra/SonyCameraRemoteAPI.git
+
+CHECKOUT OPTIONS:
+  SonyCameraRemoteAPI:
+    :commit: 31f5f722cb3b622be90246da0a762d32ea8b21fb
+    :git: https://github.com/manikkalra/SonyCameraRemoteAPI.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  CTAssetsPickerController: b1d1d50ab87cf6b8b13531de5f4530482e7e53ed
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  JTSImageViewController@bulusoy: ec8959a0f5e2aff97178639b5885ed0c9311543e
+  KissXML: d19dd6dc65e0dc721ba92b3077b8ebdd240f1c1e
+  MaterialControls: bdeeb94aa049b73f70739a5514be137d2d45c08a
+  PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
+  SonyCameraRemoteAPI: 5b44552dcbd529393e7fe91e6e82ac705a15a1e1
+  UIImage-Resize: fa776860f10e6900bbaf53a73e494bdceaaccc77
+
+COCOAPODS: 0.39.0
