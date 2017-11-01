@@ -21,11 +21,13 @@
 		C1C356E41CBC2A6400A7D9DC /* FilterRGBValues.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C356DF1CBC2A6400A7D9DC /* FilterRGBValues.m */; };
 		C1C356E51CBC2A6400A7D9DC /* MagnifierImageFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C356E11CBC2A6400A7D9DC /* MagnifierImageFilters.m */; };
 		C1C356E61CBC2A6400A7D9DC /* OmniFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C356E31CBC2A6400A7D9DC /* OmniFilter.m */; };
-		F65CD77C1A886E4248E55B8B /* libPods-ISBVI Magnifier.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 775A7F6B535A73ED4764EBE5 /* libPods-ISBVI Magnifier.a */; };
+		CB3BA34D2767681B7F54B2A0 /* libPods-ISBVI Magnifier.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F2DF2C2BBBAF6C1B44BD09 /* libPods-ISBVI Magnifier.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		775A7F6B535A73ED4764EBE5 /* libPods-ISBVI Magnifier.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ISBVI Magnifier.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F2DF2C2BBBAF6C1B44BD09 /* libPods-ISBVI Magnifier.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ISBVI Magnifier.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E09EC5B7B7CC05498C5A3A2 /* Pods-ISBVI Magnifier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISBVI Magnifier.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ISBVI Magnifier/Pods-ISBVI Magnifier.debug.xcconfig"; sourceTree = "<group>"; };
+		97F20E0E563ED3E2565BDE74 /* Pods-ISBVI Magnifier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISBVI Magnifier.release.xcconfig"; path = "Pods/Target Support Files/Pods-ISBVI Magnifier/Pods-ISBVI Magnifier.release.xcconfig"; sourceTree = "<group>"; };
 		C1514E1D1C6428FC005EB244 /* MagnifierLiveVideoStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagnifierLiveVideoStreamViewController.h; sourceTree = "<group>"; };
 		C1514E1E1C6428FC005EB244 /* MagnifierLiveVideoStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagnifierLiveVideoStreamViewController.m; sourceTree = "<group>"; };
 		C1514E1F1C6428FC005EB244 /* MagnifierLiveVideoStreamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MagnifierLiveVideoStreamViewController.xib; sourceTree = "<group>"; };
@@ -49,8 +51,6 @@
 		C1C356E11CBC2A6400A7D9DC /* MagnifierImageFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagnifierImageFilters.m; sourceTree = "<group>"; };
 		C1C356E21CBC2A6400A7D9DC /* OmniFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OmniFilter.h; sourceTree = "<group>"; };
 		C1C356E31CBC2A6400A7D9DC /* OmniFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OmniFilter.m; sourceTree = "<group>"; };
-		EFF4B10C85C352989069AFF5 /* Pods-ISBVI Magnifier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISBVI Magnifier.release.xcconfig"; path = "Pods/Target Support Files/Pods-ISBVI Magnifier/Pods-ISBVI Magnifier.release.xcconfig"; sourceTree = "<group>"; };
-		F838526843557FD811E7DFE1 /* Pods-ISBVI Magnifier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISBVI Magnifier.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ISBVI Magnifier/Pods-ISBVI Magnifier.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,27 +59,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1514E281C645776005EB244 /* AssetsLibrary.framework in Frameworks */,
-				F65CD77C1A886E4248E55B8B /* libPods-ISBVI Magnifier.a in Frameworks */,
+				CB3BA34D2767681B7F54B2A0 /* libPods-ISBVI Magnifier.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6C29A64AE89F65814B188E6D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F838526843557FD811E7DFE1 /* Pods-ISBVI Magnifier.debug.xcconfig */,
-				EFF4B10C85C352989069AFF5 /* Pods-ISBVI Magnifier.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		B0A9EC777FBEC32B339D38BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				C1514E271C645776005EB244 /* AssetsLibrary.framework */,
-				775A7F6B535A73ED4764EBE5 /* libPods-ISBVI Magnifier.a */,
+				18F2DF2C2BBBAF6C1B44BD09 /* libPods-ISBVI Magnifier.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -89,8 +80,8 @@
 			children = (
 				C159925D1C5FE5A90005AEF0 /* ISBVI Magnifier */,
 				B0A9EC777FBEC32B339D38BD /* Frameworks */,
-				6C29A64AE89F65814B188E6D /* Pods */,
 				C159925C1C5FE5A90005AEF0 /* Products */,
+				F3130A8DAD2087A244665233 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +146,15 @@
 			path = ViewControllers/Filters;
 			sourceTree = "<group>";
 		};
+		F3130A8DAD2087A244665233 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E09EC5B7B7CC05498C5A3A2 /* Pods-ISBVI Magnifier.debug.xcconfig */,
+				97F20E0E563ED3E2565BDE74 /* Pods-ISBVI Magnifier.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,12 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C15992721C5FE5A90005AEF0 /* Build configuration list for PBXNativeTarget "ISBVI Magnifier" */;
 			buildPhases = (
-				DB932624C45F4F42F4E14F71 /* Check Pods Manifest.lock */,
+				5F17C424B2B1BC5D5F46FE67 /* [CP] Check Pods Manifest.lock */,
 				C15992571C5FE5A90005AEF0 /* Sources */,
 				C15992581C5FE5A90005AEF0 /* Frameworks */,
 				C15992591C5FE5A90005AEF0 /* Resources */,
-				742FA9DA0A29D337EC605B1A /* Embed Pods Frameworks */,
-				F97753EFD7235D508B055779 /* Copy Pods Resources */,
+				44160F06CC0C2C5269F8E49C /* [CP] Embed Pods Frameworks */,
+				ECFEA143652D152A1A76211B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,11 +189,11 @@
 				TargetAttributes = {
 					C159925A1C5FE5A90005AEF0 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = W685T434Q5;
+						DevelopmentTeam = 96GW932245;
 					};
 				};
 			};
-			buildConfigurationList = C15992561C5FE5A90005AEF0 /* Build configuration list for PBXProject "ISBVI Magnifier" */;
+			buildConfigurationList = C15992561C5FE5A90005AEF0 /* Build configuration list for PBXProject "ISBVI_Magnifier" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -227,14 +227,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		742FA9DA0A29D337EC605B1A /* Embed Pods Frameworks */ = {
+		44160F06CC0C2C5269F8E49C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,30 +242,42 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISBVI Magnifier/Pods-ISBVI Magnifier-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DB932624C45F4F42F4E14F71 /* Check Pods Manifest.lock */ = {
+		5F17C424B2B1BC5D5F46FE67 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ISBVI Magnifier-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F97753EFD7235D508B055779 /* Copy Pods Resources */ = {
+		ECFEA143652D152A1A76211B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ISBVI Magnifier/Pods-ISBVI Magnifier-resources.sh",
+				"$PODS_CONFIGURATION_BUILD_DIR/CTAssetsPickerController/CTAssetsPickerController.bundle",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+				"$PODS_CONFIGURATION_BUILD_DIR/MaterialControls/MaterialControls.bundle",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -405,15 +417,16 @@
 		};
 		C15992731C5FE5A90005AEF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F838526843557FD811E7DFE1 /* Pods-ISBVI Magnifier.debug.xcconfig */;
+			baseConfigurationReference = 1E09EC5B7B7CC05498C5A3A2 /* Pods-ISBVI Magnifier.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 96GW932245;
 				INFOPLIST_FILE = "ISBVI Magnifier/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.purdue.ISBVI-Magnifier";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.purdue.ISBVI-Magnifier-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -422,15 +435,16 @@
 		};
 		C15992741C5FE5A90005AEF0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFF4B10C85C352989069AFF5 /* Pods-ISBVI Magnifier.release.xcconfig */;
+			baseConfigurationReference = 97F20E0E563ED3E2565BDE74 /* Pods-ISBVI Magnifier.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 96GW932245;
 				INFOPLIST_FILE = "ISBVI Magnifier/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.purdue.ISBVI-Magnifier";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.purdue.ISBVI-Magnifier-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -440,7 +454,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C15992561C5FE5A90005AEF0 /* Build configuration list for PBXProject "ISBVI Magnifier" */ = {
+		C15992561C5FE5A90005AEF0 /* Build configuration list for PBXProject "ISBVI_Magnifier" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C15992701C5FE5A90005AEF0 /* Debug */,

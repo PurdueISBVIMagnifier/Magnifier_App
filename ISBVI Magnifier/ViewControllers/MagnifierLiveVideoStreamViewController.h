@@ -1,4 +1,4 @@
-//
+ //
 //  MagnifierLiveVideoStreamViewController.h
 //  ISBVI Magnifier
 //

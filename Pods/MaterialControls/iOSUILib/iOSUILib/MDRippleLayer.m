@@ -137,6 +137,7 @@
 }
 
 
+
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
   CGPoint point = [touches.allObjects[0] locationInView:superView];
   [self startEffectsAtLocation:point];
