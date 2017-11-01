@@ -1,7 +1,10 @@
 # Magnifier_App
 App designed for students that are visually impaired to see their work better
 
-After installing the pods go to Pods, then MaterialControls, then MDRippleLayer.m and replace lines 126-137 with the following code:
+After installing the pods go to Pods, then MaterialControls, then MDRippleLayer.m and replace lines 126-137 with the following code: 
+
+Go into the edit of this readme to get the actual indented code. This is a must.
+
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag {
   if (flag) {
     if (_userIsHolding) {
